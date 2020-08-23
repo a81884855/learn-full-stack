@@ -1,0 +1,23 @@
+{
+  "name": "learn_full_stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon dist/index.js",
+    "start2": "ts-node src/index.ts",
+    "dev2": "nodemon --exec ts-node src/index.ts",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.6.0",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "ts-node": "^9.0.0"
+  }
+}
